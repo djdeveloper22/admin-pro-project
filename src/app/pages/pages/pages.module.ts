@@ -8,19 +8,22 @@ import { ProgressComponent } from '../progress/progress.component';
 import { PagesComponent } from './pages.component';
 import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { AccountSettingComponent } from '../account-setting/account-setting.component';
 
 @NgModule({
   declarations: [
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingComponent
   ],
   exports:[
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingComponent
   ],
   imports: [
     CommonModule,
